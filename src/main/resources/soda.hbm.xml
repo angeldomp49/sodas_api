@@ -1,0 +1,12 @@
+<hibernate-mapping package="models">
+
+    <class name="Soda" table="sodas">
+        <id name="id" column="id" access="field">
+            <generator class="increment"/>
+        </id>
+        <property name="marca" access="field"/>
+        <property name="sabor" access="field"/>
+        <property name="descripcion" access="field"/>
+    </class>
+
+</hibernate-mapping>
